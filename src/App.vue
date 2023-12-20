@@ -1,3 +1,11 @@
+<script lang="ts">
+import {Banner} from './components'
+
+export default {
+  components: { Banner }
+}
+</script>
+
 <template>
-  <h1>Meu projeto Vue!</h1>
+  <Banner />
 </template>
